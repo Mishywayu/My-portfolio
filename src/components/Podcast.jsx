@@ -9,7 +9,7 @@ export default function Podcast() {
                     <h1>COMING</h1>
                     <h1>SOON</h1>
 
-                    <p></p>
+                    <p>Stay tuned. Some amazing content is coming soon.</p>
                 </div>
                 <div className='col-right'></div>
             </div>

@@ -6,10 +6,10 @@ export default function Navbar() {
         <div className='header'>
             <Router>
                 <nav>
-                  <input type="checkbox" id="check" />
-                  <label for="check" className='checkbtn'>
-                  <i className='fas fa-bars'></i>
-                  </label>
+                    <input type="checkbox" id="check" />
+                    <label for="check" className='checkbtn'>
+                        <i className='fas fa-bars'></i>
+                    </label>
                     <label className='logo'>Michelle</label>
                     <ul>
                         <li><a href='/'>Home</a></li>

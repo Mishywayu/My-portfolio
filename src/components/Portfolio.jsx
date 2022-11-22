@@ -1,7 +1,7 @@
 import '../App.css';
 
 export default function Portfolio() {
-    return(
+    return (
         <div>
             Portfolio
         </div>
