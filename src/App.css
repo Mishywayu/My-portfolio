@@ -598,7 +598,7 @@ form {
     padding-right: 10px;
     border: 2px solid #777;
     color: whitesmoke;
-    border-radius: 14px;
+    border-radius: 2px;
     outline: none;
     background: rgba(255, 255, 255, .1);
 }
@@ -621,4 +621,92 @@ form {
 
 .contact-btn:hover {
     background-color: black;
+}
+
+/*portfolio*/
+.portfolio-container h1 {
+    color: black;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    padding-top: 55px;
+    padding-left: 550px;
+    animation: article-load 300ms ease-in var(--article-load-delay);
+    animation-fill-mode: forwards;
+    transform: translateY(-20px);
+    opacity: 0;
+}
+
+.portfolio-container hr {
+    width: 10%;
+    border: 2px solid crimson;
+    margin-left: 566px;
+    animation: article-load 300ms ease-in calc(var(--article-load-delay));
+    animation-fill-mode: forwards;
+    transform: translateY(-20px);
+    opacity: 0;
+}
+
+.projects {
+    display: flex;
+    width: 100%;
+    height: 65vh;
+}
+
+.proj-left {
+    width: 50%;
+    height: 100%;
+}
+
+.proj-img {
+    width: 60%;
+    height: 50%;
+    background-image: url(/public/images/menu.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 90px;
+    border-radius: 10px;
+    animation: image-load-about 800ms ease-in 1000ms;
+    animation-fill-mode: backwards;
+}
+
+.proj-left p {
+    font-family: 'Montserrat';
+    text-align: justify;
+    margin: 7px 90px;
+    animation: article-load 300ms ease-in var(--article-load-delay);
+    animation-fill-mode: forwards;
+    transform: translateY(-20px);
+    opacity: 0;
+}
+
+.proj-links {
+    margin: 15px 90px;
+    animation: article-load 300ms ease-in var(--article-load-delay);
+    animation-fill-mode: forwards;
+    transform: translateY(-20px);
+    opacity: 0;
+}
+
+.proj-links a {
+    color: white;
+    text-decoration: none;
+    padding: 13px 20px;
+    background: black;
+    border-radius: 12px;
+}
+
+.proj-links a:hover {
+    color: white;
+    background: whitesmoke;
+}
+
+.proj-links a:nth-child(2) {
+    margin-left: 20px;
+}
+
+.proj-right {
+    width: 50%;
+    height: 100%;
+    /* background: red; */
 }
